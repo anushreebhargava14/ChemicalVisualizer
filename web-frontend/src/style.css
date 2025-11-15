@@ -1,0 +1,40 @@
+/* NORMAL LIGHT MODE */
+body {
+  background: #f7f7f7;
+  color: #222;
+  transition: 0.3s;
+}
+
+/* DARK MODE */
+body.dark-mode {
+  background: #121212;
+  color: #eaeaea;
+}
+
+body.dark-mode table {
+  color: white;
+  background: #222;
+}
+
+body.dark-mode th {
+  background: #333;
+  color: #fff;
+}
+
+body.dark-mode td {
+  background: #1e1e1e;
+}
+
+.dark-toggle-btn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #444;
+  color: white;
+  cursor: pointer;
+}
+
+body.dark-mode .dark-toggle-btn {
+  background: #ddd;
+  color: black;
+}

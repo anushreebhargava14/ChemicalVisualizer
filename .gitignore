@@ -1,0 +1,27 @@
+# --- PYTHON / DJANGO ---
+__pycache__/
+*.pyc
+env/
+venv/
+*.sqlite3
+media/
+staticfiles/
+
+# Environment files
+.env
+*.env
+
+# Backup and system
+*.bak
+*.tmp
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
